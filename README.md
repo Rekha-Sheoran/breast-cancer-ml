@@ -1,57 +1,82 @@
-# 🧬 Breast Cancer Prediction System
+# 🧬 Breast Cancer Prediction App
 
-## 📌 Overview
-This project is a Machine Learning-based web application that predicts whether a tumor is **benign or malignant** using medical diagnostic data.
-
-It includes:
-- Machine Learning model training
-- Flask REST API backend
-- Streamlit interactive UI
+This project is a Machine Learning-based web application that predicts whether a tumor is **Benign (Non-Cancerous)** or **Malignant (Cancerous)** using medical data.
 
 ---
 
-## ⚙️ Tech Stack
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Flask
-- Streamlit
+## 🌐 Live Demo
 
----
-
-## 📊 Dataset
-- Breast Cancer Wisconsin Dataset (from sklearn)
-- 30 numerical medical features
-
----
-
-## 🤖 Machine Learning Model
-- Logistic Regression
-- StandardScaler preprocessing pipeline
-
----
-
-## 📈 Model Performance
-- Training Accuracy: ~98%
-- Testing Accuracy: ~97%
+👉 https://breast-cancer-ml-rekha.streamlit.app
 
 ---
 
 ## 🚀 Features
-- Train ML model on medical dataset
-- Predict cancer type (Benign / Malignant)
-- REST API using Flask
-- Interactive UI using Streamlit
-- Real-time predictions
+
+* Predicts breast cancer using trained ML model
+* Interactive web interface using Streamlit
+* Real-time prediction
+* Easy-to-use input system
 
 ---
 
-## 🖥️ How to Run Project
+## 🧠 Machine Learning Model
 
-### 1. Clone repository
+* Algorithm: Logistic Regression
+* Accuracy: ~97%
+* Dataset: Breast Cancer Wisconsin Dataset
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Streamlit
+* Scikit-learn
+* NumPy
+* Pandas
+
+---
+
+## 📂 Project Structure
+
+```
+breast-cancer-ml/
+│── app.py
+│── streamlit_app.py
+│── train.py
+│── model/
+│── requirements.txt
+│── README.md
+```
+
+---
+
+## ▶️ How to Run Locally
+
 ```bash
-git clone https://github.com/your-username/breast-cancer-ml.git
+git clone https://github.com/Rekha-Sheoran/breast-cancer-ml
 cd breast-cancer-ml
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+---
+
+## 💼 Use Case
+
+This project demonstrates how Machine Learning can assist in **early detection of breast cancer**, helping in faster medical decisions.
+
+---
+
+## 📌 Author
+
+**Rekha Sheoran**
+GitHub:https://github.com/Rekha-Sheoran
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
 
 
